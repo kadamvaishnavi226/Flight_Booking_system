@@ -35,7 +35,7 @@ Flight_Booking_system/
 ├── flights.html # Flight Selection Page
 ├── booking.html # Booking Form Page
 ├── style.css # Main CSS styling
-└── /images/ # Flight images used in cards
+
 
 
 ---
