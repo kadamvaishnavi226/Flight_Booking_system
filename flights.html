@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyWings - Flights</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="index.html"><i class="fa-solid fa-plane-departure"></i> SkyWings</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="flights.html">Flights</a></li>
+        <li class="nav-item"><a class="nav-link" href="booking.html">Book Now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page2-header">
+  <h2>Available Flights</h2>
+  <p>Choose the best flight for your Journey ✈️</p>
+</div>
+
+<div class="container flights-container">
+  <div class="row g-4">
+    <!-- Flight 1 -->
+    <div class="col-md-6">
+      <div class="flight-card d-flex align-items-center p-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chennai_Central.jpg/330px-Chennai_Central.jpg" class="flight-img me-3">
+        <div class="flight-info flex-grow-1">
+          <div class="airline-name">Air India</div>
+          <div class="flight-route">Mumbai → Chennai</div>
+          <div class="flight-time">Duration: 2h 15m | Direct Flight</div>
+        </div>
+        <div class="text-end">
+          <div class="flight-price">₹5,499</div>
+          <a href="booking.html" class="select-btn">Select</a>
+        </div>
+      </div>
+    </div>
+    <!-- Flight 2 -->
+    <div class="col-md-6">
+      <div class="flight-card d-flex align-items-center p-3">
+        <img src="https://greatruns.com/wp-content/uploads/2017/04/mumbai-cover.jpeg" class="flight-img me-3">
+        <div class="flight-info flex-grow-1">
+          <div class="airline-name">IndiGo</div>
+          <div class="flight-route">Bangalore → Mumbai</div>
+          <div class="flight-time">Duration: 1h 45m | Direct Flight</div>
+        </div>
+        <div class="text-end">
+          <div class="flight-price">₹4,299</div>
+          <a href="booking.html" class="select-btn">Select</a>
+        </div>
+      </div>
+    </div>
+    <!-- Flight 3 -->
+    <div class="col-md-6">
+      <div class="flight-card d-flex align-items-center p-3">
+        <img src="https://goavillagioresort.com/wp-content/webp-express/webp-images/uploads/2025/07/Best-Villas-in-North-Goa-Your-Ultimate-Guide-to-Booking-the-Perfect-Stay-scaled.jpg.webp" class="flight-img me-3">
+        <div class="flight-info flex-grow-1">
+          <div class="airline-name">SpiceJet</div>
+          <div class="flight-route">Delhi → Goa</div>
+          <div class="flight-time">Duration: 2h 30m | Direct Flight</div>
+        </div>
+        <div class="text-end">
+          <div class="flight-price">₹6,799</div>
+          <a href="booking.html" class="select-btn">Select</a>
+        </div>
+      </div>
+    </div>
+    <!-- Flight 4 -->
+    <div class="col-md-6">
+      <div class="flight-card d-flex align-items-center p-3">
+        <img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2021/05/Visit-in-Kolkata-1.jpg" class="flight-img me-3">
+        <div class="flight-info flex-grow-1">
+          <div class="airline-name">Vistara</div>
+          <div class="flight-route">Chennai → Kolkata</div>
+          <div class="flight-time">Duration: 2h 10m | Direct Flight</div>
+        </div>
+        <div class="text-end">
+          <div class="flight-price">₹7,299</div>
+          <a href="booking.html" class="select-btn">Select</a>
+        </div>
+      </div>
+    </div>
+    <!-- Flight 5 -->
+    <div class="col-md-6">
+      <div class="flight-card d-flex align-items-center p-3">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ef/40/5e/caption.jpg?w=1200&h=700&s=1&cx=3000&cy=2000&chk=v1_3f69fc55d2190a829265" class="flight-img me-3">
+        <div class="flight-info flex-grow-1">
+          <div class="airline-name">Emirates</div>
+          <div class="flight-route">Mumbai → Dubai</div>
+          <div class="flight-time">Duration: 3h 5m | Direct Flight</div>
+        </div>
+        <div class="text-end">
+          <div class="flight-price">₹18,999</div>
+          <a href="booking.html" class="select-btn">Select</a>
+        </div>
+      </div>
+    </div>
+    <!-- Flight 6 -->
+    <div class="col-md-6">
+      <div class="flight-card d-flex align-items-center p-3">
+        <img src="https://unaadbhatkanti.in/wp-content/uploads/2024/07/singapore-thailand-malaysia-1536x1114-1.jpg" class="flight-img me-3">
+        <div class="flight-info flex-grow-1">
+          <div class="airline-name">Singapore Airlines</div>
+          <div class="flight-route">Delhi → Singapore</div>
+          <div class="flight-time">Duration: 5h 30m | Direct Flight</div>
+        </div>
+        <div class="text-end">
+          <div class="flight-price">₹22,499</div>
+          <a href="booking.html" class="select-btn">Select</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="button-container mt-4 text-center">
+  <a href="index.html" class="cta-button">← Back</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
