@@ -29,7 +29,7 @@ It features a clean and modern UI, dynamic navigation between pages, and a simpl
 
 ## 📁 Project Structure
 
-SkyWings/
+Flight_Booking_system/
 │
 ├── index.html # Home Page
 ├── flights.html # Flight Selection Page
